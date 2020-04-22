@@ -4,7 +4,6 @@ import sys
 
 #sys : This module provides access to some variables used or maintained by the interpreter and to functions that interact strongly with the interpreter. It is always available.
 
-booli = True
 inp = "Ask the Magic 8-Ball a question (Return or enter to quit) "
 print('  __  __          _____ _____ _____    ___  ')
 print(' |  \/  |   /\   / ____|_   _/ ____|  / _ \ ')
