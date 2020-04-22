@@ -6,7 +6,14 @@ import sys
 
 booli = True
 inp = "Ask the Magic 8-Ball a question (Return or enter to quit) "
-
+print('  __  __          _____ _____ _____    ___  ')
+print(' |  \/  |   /\   / ____|_   _/ ____|  / _ \ ')
+print(' | \  / |  /  \ | |  __  | || |      | (_) |')
+print(' | |\/| | / /\ \| | |_ | | || |       > _ < ')
+print(' | |  | |/ ____ \ |__| |_| || |____  | (_) |')
+print(' |_|  |_/_/    \_\_____|_____\_____|  \___/ ')
+print('')
+print('')
 while 1:
     question = input(inp)
     answer = random.randint(1,8)
