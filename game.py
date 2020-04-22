@@ -5,6 +5,7 @@ import sys
 #sys : This module provides access to some variables used or maintained by the interpreter and to functions that interact strongly with the interpreter. It is always available.
 
 inp = "Ask the Magic 8-Ball a question (Return or enter to quit) "
+
 print('  __  __          _____ _____ _____    ___  ')
 print(' |  \/  |   /\   / ____|_   _/ ____|  / _ \ ')
 print(' | \  / |  /  \ | |  __  | || |      | (_) |')
@@ -13,6 +14,7 @@ print(' | |  | |/ ____ \ |__| |_| || |____  | (_) |')
 print(' |_|  |_/_/    \_\_____|_____\_____|  \___/ ')
 print('')
 print('')
+
 while 1:
     question = input(inp)
     answer = random.randint(1,8)
